@@ -1,4 +1,4 @@
-version: 3.8
+version: '3.8'
 
 
 services:
@@ -27,4 +27,5 @@ services:
       - db
 
 volumes:
-  - db_data:
+   db_data:
+     driver: local
